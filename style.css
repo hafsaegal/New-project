@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  background-color: black;
+  color: white;
+  height: 30px;
+  padding-top: 2px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.section_one {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-evenly;
+  background-color: aqua;
+}
+
+img {
+  size: 50px;
+}
